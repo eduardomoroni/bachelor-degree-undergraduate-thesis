@@ -20,8 +20,8 @@ steps:
           - gh-pages
     environment:
       - NODE_ENV=development
-      - CODECLIMATE_REPO_TOKEN=9a8d999dfebca03e28a1c2263cf3b2572f59f894a35a96cb379f01616e47b3e1
-      - CODECOV_TOKEN=419b56f0-fec3-4e70-9831-56253bb84412
+      - CODECLIMATE_REPO_TOKEN=83cd9c6b661104d5aff21d3841ac41b9269dd3089ddb7e4c916c7e1600838fcf
+      - CODECOV_TOKEN=502b8178-4fe7-4e75-a03e-9b480895e100
     commands:
       - npm run lint-check
       - npm run flow-check
