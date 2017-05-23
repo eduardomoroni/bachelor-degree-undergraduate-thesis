@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginScreen /> Snapshot WIP 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 50,
+      }
+    }
+  >
+    <View>
+      <RkText
+        style={
+          Object {
+            "fontSize": 42,
+            "textAlign": "center",
+          }
+        }
+      >
+        SIGN IN
+      </RkText>
+    </View>
+    <View>
+      <RkText
+        style={
+          Object {
+            "fontSize": 32,
+            "textAlign": "center",
+          }
+        }
+      />
+    </View>
+    <View>
+      <SocialIcon
+        button={true}
+        iconColor="white"
+        iconSize={24}
+        onPress={[Function]}
+        raised={true}
+        title="Sign In With Facebook"
+        type="facebook"
+      />
+    </View>
+  </View>
+</View>
+`;
